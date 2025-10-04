@@ -10,7 +10,7 @@ export default function AchievementList({
 
   const handleDelete = async (id) => {
     try {
-      const res = await fetch(`http://localhost:5000/news/achievements/${id}`, {
+      const res = await fetch(`https://final-one-b2techservices.onrender.com/news/achievements/${id}`, {
         method: "DELETE",
         headers,
       });
