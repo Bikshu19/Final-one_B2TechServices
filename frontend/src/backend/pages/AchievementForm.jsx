@@ -37,8 +37,8 @@ export default function AchievementForm({
     if (formImage) formData.append("image", formImage);
 
     const url = editing
-      ? `http://localhost:5000/news/achievements/${editing._id}`
-      : "http://localhost:5000/news/achievements";
+      ? `https://final-one-b2techservices.onrender.com/news/achievements/${editing._id}`
+      : "https://final-one-b2techservices.onrender.com/news/achievements";
     const method = editing ? "PUT" : "POST";
 
     try {
